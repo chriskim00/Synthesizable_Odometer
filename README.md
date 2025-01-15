@@ -1,9 +1,9 @@
 # Open-Source Synthesizable Silicon Odometer Aging Sensor
-# “RTL” folder contains Verilog files for synthesis and the “Testbench” folder contains the testbench to check the functionality.
+“RTL” folder contains Verilog files for synthesis and the “Testbench” folder contains the testbench to check the functionality.
 
 # In the RTL folder - 
-# “Odometer_normal_rvt” - Contains the RTL files for odometer design.
-# “VCO” - Contains the RTL description for the voltage controlled oscillator for AC stress. 
+“Odometer_normal_rvt” - Contains the RTL files for odometer design.
+“VCO” - Contains the RTL description for the voltage controlled oscillator for AC stress. 
 
 # “Odometer_normal_rvt” folder is organized as follows - 
 “ROSC_ALL_RVT.v” - Structural Verilog for Ring Oscillators (ROSC).
