@@ -3,9 +3,11 @@
 
 # In the RTL folder - 
 “Odometer_normal_rvt” - Contains the RTL files for odometer design.
+
 “VCO” - Contains the RTL description for the voltage controlled oscillator for AC stress. 
 
 # “Odometer_normal_rvt” folder is organized as follows - 
+
 “ROSC_ALL_RVT.v” - Structural Verilog for Ring Oscillators (ROSC).
 “signal_ctrl.v” - Control signal latching circuit.
 “shift_sample_3b.v” - 3 bit shift register.
@@ -18,6 +20,7 @@
 “odometer_full_rvt.v” - Reference and stress ROSC with the top control.
 
 # “VCO” folder consists of -
+
 “ROSC101_SEL_INV.v” - Structural Verilog for the oscillator.
 “freq_div_*b.v” - Multibit frequency divider.
 “signal_control_vco.v” - Control circuits for the VCO.
